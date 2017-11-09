@@ -1,0 +1,26 @@
+# Initialize an npm package with defaults
+npm init -y
+
+# set, get and delete defaults 
+npm config set init-author-name "Adnan Hussain"
+npm set init-author-name "Adnan Hussain"
+npm config get ...
+npm config delete ...
+
+# Don't install devDependencies
+npm install --production
+
+# Install a specific version of a dependency 
+npm install lodash@4.17.3 [--save | --save-dev]
+
+# Update a dependency 
+npm update lodash
+
+# Global node_modules folder
+npm root -g
+
+
+## Useful modules ##
+nodemon
+live-server
+
